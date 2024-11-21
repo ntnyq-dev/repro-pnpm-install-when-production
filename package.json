@@ -1,0 +1,15 @@
+{
+  "name": "repro-pnpm-install-when-production",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@antfu/install-pkg": "^0.4.1",
+    "kolorist": "^1.8.0"
+  }
+}
